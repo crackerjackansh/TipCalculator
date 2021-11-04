@@ -1,0 +1,60 @@
+body{
+    background: #112d42;
+    text-align: center;
+    margin: 10%;
+}
+/* heading */
+    h1{
+        color: #ffffff;
+        margin: 1em 0;
+    }
+/* calculator background */
+    .box{
+        background: url("pic15.png");
+    }
+/* designing card for both input and output */
+    .card{
+        border-radius: 1.5em;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+    }
+
+/* Setting width of select box */
+    .form-select{
+        width: 30%;
+    }
+/* Designing all input fields in input box*/
+    input{
+        text-align: center;
+    }
+    input:focus::placeholder {
+        color: transparent;
+    }
+
+    .input-box{
+        padding: 2em;
+    }
+/* Designing Output box */
+    .output-box{
+        padding: 2em;
+        height: 100%;
+        width: 100%;
+        font-size: 1.5em;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .output-box #total{
+        font-weight: 600;
+        font-size: 1.7em;
+    }
+    .calc-heading{
+        font-weight: 600;
+        width: 5em;
+    }
+    .sub-calc-heading{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .calc-output{
+        font-weight: 400;
+        width: 10em;
+    }
+
